@@ -8,7 +8,7 @@ from tg_bot.handlers.commands import router as commands_router
 
 
 class Config:
-    BOT_TOKEN = os.getenv('7663778864:AAFOlCjTFMXuQtvMPK3H5nM-rzENa30WVWg')
+    BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 
 bot = Bot(Config.BOT_TOKEN)
